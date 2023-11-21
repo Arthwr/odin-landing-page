@@ -1,0 +1,96 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --dark-bg-color: #1f2937;
+  --main-txt-color: #f9faf8;
+  --secondary-txt-color: #e5e7eb;
+  --header-logotxt-color: #f9faf8;
+  --button-color: #3882f6;
+  --information-txt-header: #1f2937;
+  --quote-bg-color: #e5e7eb;
+  --quote-txt-color: #1f2937;
+}
+
+body {
+  margin: 0;
+}
+
+.head-container {
+  margin: 0 auto;
+  background-color: var(--dark-bg-color);
+}
+
+.main-wrapper {
+  padding-top: 20px;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.head-wrapper {
+  max-width: 1024px;
+  margin: auto;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: var(--main-txt-color);
+  font-size: 24px;
+}
+
+ul li {
+  font-size: 18px;
+  color: var(--secondary-txt-color);
+}
+
+ul > div {
+  margin-right: auto;
+  margin-left: 0;
+  font-weight: bold;
+}
+
+.hero-section {
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--dark-bg-color);
+  color: var(--main-txt-color);
+}
+
+.hero-section h1 {
+  line-height: 3rem;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero-section p {
+  font-size: 18px;
+  color: var(--secondary-txt-color);
+  max-width: 450px;
+  margin: 5px 0;
+}
+
+button.sign-up {
+  margin-top: 10px;
+  font-weight: bold;
+  background-color: var(--button-color);
+  color: var(--main-txt-color);
+  border-radius: 4px;
+  border-style: solid;
+  border: 1px;
+  font-family: "Roboto", sans-serif;
+  padding: 8px 35px;
+  cursor: pointer;
+}
+
+#odin-pic {
+  object-fit: cover;
+}
