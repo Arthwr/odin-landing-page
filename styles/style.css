@@ -137,3 +137,33 @@ div.box-img + p {
   margin: 10px 0 0;
   padding: 0;
 }
+
+/* Quote */
+
+.quote-container {
+  background-color: var(--quote-bg-color);
+}
+
+.quote-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 60px auto ;
+  max-width: 800px;
+}
+
+.quote-wrapper > p {
+  font-size: 36px;
+  font-weight:300;
+  color: var(--quote-txt-color);
+  font-style: italic;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+cite {
+  font-weight: bold;
+  font-style: normal;
+  align-self: flex-end;
+}
+
+
